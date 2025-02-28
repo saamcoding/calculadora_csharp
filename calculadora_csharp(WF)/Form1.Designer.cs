@@ -49,6 +49,7 @@
             label1 = new Label();
             button19 = new Button();
             button18 = new Button();
+            button20 = new Button();
             SuspendLayout();
             // 
             // textBox1
@@ -301,12 +302,25 @@
             button18.Text = "%";
             button18.UseVisualStyleBackColor = false;
             // 
+            // button20
+            // 
+            button20.BackColor = Color.DarkOrange;
+            button20.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button20.ForeColor = SystemColors.ButtonHighlight;
+            button20.Location = new Point(219, 241);
+            button20.Name = "button20";
+            button20.Size = new Size(54, 108);
+            button20.TabIndex = 22;
+            button20.Text = "=";
+            button20.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLightLight;
             ClientSize = new Size(306, 365);
+            Controls.Add(button20);
             Controls.Add(button18);
             Controls.Add(button19);
             Controls.Add(label1);
@@ -358,5 +372,6 @@
         private Label label1;
         private Button button19;
         private Button button18;
+        private Button button20;
     }
 }
